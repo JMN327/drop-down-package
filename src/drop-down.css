@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.drop-down-hover__button {
+  position: relative;
+}
+
+.drop-down-hover__list {
+  display: none;
+  position: absolute;
+  top: calc(100% + 0rem);
+  left: -0.25rem;
+  z-index: 1;
+}
+
+.drop-down-click__button {
+  position: relative;
+}
+
+.drop-down-click__list {
+  display: none;
+  position: absolute;
+  top: calc(100% + 0rem);
+  left: 0.25;
+  z-index: 1;
+}
+
+.drop-down-hover__button:hover .drop-down-hover__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-show {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-hide {
+  display: none;
+}

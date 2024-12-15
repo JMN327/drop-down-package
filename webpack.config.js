@@ -4,6 +4,9 @@ const path = require("path");
 module.exports = {
   mode: "development",
   entry: "./src/drop-down.js",
+  experiments: {
+    outputModule: true,
+  },
   output: {
     library: {
       type: "module",

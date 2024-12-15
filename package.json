@@ -1,0 +1,31 @@
+{
+  "name": "drop-down-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "getWebpack": "npm install --save-dev webpack webpack-cli",
+    "getHTML": "npm install --save-dev html-webpack-plugin",
+    "getCSS": "npm install --save-dev style-loader css-loader",
+    "getHTMLImages": "npm install --save-dev html-loader",
+    "getWebpackServer": "npm install --save-dev webpack-dev-server",
+    "getESLint": "npm install eslint",
+    "initESLint": "npx eslint --init",
+    "getDateFns": "npm install date-fns --save",
+    "getDatePicker": "npm install js-datepicker --save",
+    "getStarBar": "npm install rater-js --save",
+    "build": "webpack",
+    "dev": "webpack serve",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
+  }
+}

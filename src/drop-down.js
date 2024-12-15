@@ -1,6 +1,11 @@
 import "./drop-down.css";
 
 export default function dropdown(button, list) {
+
+  function test() {
+    console.log("test complete")
+  }
+
   const hoverable = () => {
     if (!(button || list)) {
       return;
